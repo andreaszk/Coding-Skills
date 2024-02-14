@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dcdcdc; /* Gris */
+}
+
+.container1 {
+  text-align: left;
+
+}
+
+
+.main-rectangle1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: justify;
+  width: 90%;
+  margin: 50px auto;
+ 
+  border-radius: 30px;
+  padding: 20px;
+ 
+}
+
+
+
+
+.main-rectangle {
+  display: flex;
+  justify-content: space-between;
+  align-items: justify;
+  width: 97%;
+  margin: 50px auto;
+  background-color: #9C815E    ; /* Marron */
+  border-radius: 30px;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  border-radius:50%;
+  align-items: justify;
+ 
+ 
+}
+
+
+
+
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  align-items: top;
+}
+
+.container2 {
+  text-align: center;
+
+}
+
+.sub-title {
+  align-items: left;
+  font-weight: bold;
+  font-size: 20px;
+ 
+}
+
+
+
+.subtitle {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+
+.content2 {
+  width: 100%;
+  border-radius: 50px;
+  max-width: 1000px;
+  background-color: #007F96;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+.cv-button {
+  font-weight: bold;
+  background-color: white;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cv-button:hover {
+  background-color: #f0f0f0;
+  border: 3px red solid;
+color:red;
+transition: 2s;
+}
+
+
+
+
+
+.secondary-rectangles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px auto;
+}
+
+.blue-rectangle, .blue-rectangle2, .blue-rectangle3 {
+  color: white;
+  border-radius: 30px;
+  padding: 20px;
+  flex-basis: calc(33.33% - 10px); /* Calcule la largeur de chaque rectangle pour qu'ils soient alignés et espacés correctement */
+  box-sizing: border-box; /* Inclut le padding dans le calcul de la largeur */
+}
+
+.blue-rectangle {
+  background-color: #20425C;
+}
+
+.blue-rectangle2 {
+  background-color: #20425C;
+}
+
+.blue-rectangle3 {
+  background-color: #20425C;
+}
+
+
+
+
+
+
+.container3 {
+  text-align: center;
+
+}
+
+.content3 {
+ 
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-radius: 30px;
+  margin: 50px auto;
+  background-color: #9C815E    ; /* Marron */
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+
+
+ 
+}
+
